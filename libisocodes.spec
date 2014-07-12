@@ -1,16 +1,16 @@
 Summary:	Library to access iso-codes data and translations
 Summary(pl.UTF-8):	Biblioteka dostępu do danych i tłumaczeń iso-codes
 Name:		libisocodes
-Version:	1.2
+Version:	1.2.1
 Release:	1
 License:	GPL v3+
 Group:		Libraries
 Source0:	http://pkg-isocodes.alioth.debian.org/downloads/%{name}-%{version}.tar.xz
-# Source0-md5:	11cc0a512521349b825f9a8566a8daae
+# Source0-md5:	d28b97e7ff6404103afc2022dd968224
 URL:		http://pkg-isocodes.alioth.debian.org/
 BuildRequires:	gettext-devel >= 0.18
 BuildRequires:	glib2-devel >= 2.0
-BuildRequires:	libgee0.6-devel >= 0.6
+BuildRequires:	libgee-devel >= 0.8
 BuildRequires:	libxml2-devel >= 2.0
 BuildRequires:	pkgconfig
 BuildRequires:	vala >= 2:0.16
@@ -42,7 +42,7 @@ Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libisocodes
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	glib2-devel >= 2.0
-Requires:	libgee0.6-devel >= 0.6
+Requires:	libgee-devel >= 0.8
 Requires:	libxml2-devel >= 2.0
 
 %description devel
