@@ -8,7 +8,7 @@ Group:		Libraries
 Source0:	http://pkg-isocodes.alioth.debian.org/downloads/%{name}-%{version}.tar.xz
 # Source0-md5:	d28b97e7ff6404103afc2022dd968224
 URL:		http://pkg-isocodes.alioth.debian.org/
-BuildRequires:	gettext-devel >= 0.18
+BuildRequires:	gettext-tools >= 0.18
 BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	libgee-devel >= 0.8
 BuildRequires:	libxml2-devel >= 2.0
