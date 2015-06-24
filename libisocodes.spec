@@ -1,12 +1,12 @@
 Summary:	Library to access iso-codes data and translations
 Summary(pl.UTF-8):	Biblioteka dostępu do danych i tłumaczeń iso-codes
 Name:		libisocodes
-Version:	1.2.1
+Version:	1.2.2
 Release:	1
 License:	GPL v3+
 Group:		Libraries
 Source0:	http://pkg-isocodes.alioth.debian.org/downloads/%{name}-%{version}.tar.xz
-# Source0-md5:	d28b97e7ff6404103afc2022dd968224
+# Source0-md5:	889f6f9b7fa2289ecbc7ecd28db1bdbd
 URL:		http://pkg-isocodes.alioth.debian.org/
 BuildRequires:	gettext-tools >= 0.18
 BuildRequires:	glib2-devel >= 2.0
