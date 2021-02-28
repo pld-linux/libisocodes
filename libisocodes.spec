@@ -68,9 +68,7 @@ Summary:	libisocodes API for Vala language
 Summary(pl.UTF-8):	API libisocodes dla języka Vala
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description -n vala-libisocodes
 libisocodes API for Vala language.
