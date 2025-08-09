@@ -5,15 +5,17 @@ Version:	1.2.5
 Release:	1
 License:	GPL v3+
 Group:		Libraries
+# TODO: named tarball
+#Source0:	https://github.com/toddy15/libisocodes/archive/v%{version}/%{name}-%{version}.tar.gz
 Source0:	https://github.com/toddy15/libisocodes/archive/refs/tags/v%{version}.tar.gz
 # Source0-md5:	bea200956b1b3bb90d200aa3ba8a9e3e
 URL:		https://github.com/toddy15/libisocodes
-BuildRequires:	gettext-tools >= 0.18
+BuildRequires:	gettext-tools >= 0.19.3
 BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	libgee-devel >= 0.8
 BuildRequires:	libxml2-devel >= 2.0
 BuildRequires:	pkgconfig
-BuildRequires:	vala >= 2:0.16
+BuildRequires:	vala >= 2:0.26
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
